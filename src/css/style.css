@@ -69,8 +69,16 @@
     color: white;
   }
 
+  .btn-success:hover {
+    cursor: pointer;
+  }
+
   .card-input {
     padding: 10px 15px;
     border: 1px solid gray;
     border-radius: 5px;
+  }
+
+  .card-input:focus {
+    outline: none;
   }
